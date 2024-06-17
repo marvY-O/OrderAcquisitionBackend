@@ -1,0 +1,18 @@
+{
+  "name": "orderacquisitionbackend",
+  "version": "1.0.0",
+  "description": "Order Acquisition Platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js 8000",
+    "start": "node server.js"
+  },
+  "author": "Ishleen & Vyom",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0"
+  }
+}
